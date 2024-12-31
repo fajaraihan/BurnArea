@@ -7,6 +7,14 @@
 \description{
 Tools for analyzing burned areas using optical satellite imagery. This package provides functions for NBR calculation, burn severity classification, and validation of results.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/fajaraihan/BurnArea}
+  \item Report bugs at \url{https://github.com/fajaraihan/BurnArea/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Fajar Raihan \email{fajar.raihan.data@gmail.com}
 
