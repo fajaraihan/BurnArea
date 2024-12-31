@@ -1,0 +1,29 @@
+Package: BurnArea
+Type: Package
+Title: Analysis of Burned Areas Using Optical Satellite Imagery
+Version: 0.1.0
+Authors@R: person("Fajar", "Raihan", email = "fajar.raihan.data@gmail.com", role = c("aut", "cre"))
+Description: Tools for analyzing burned areas using optical satellite imagery. This package 
+    provides functions for NBR calculation, burn severity classification, and 
+    validation of results.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: id-ID
+LazyData: true
+Depends: R (>= 3.5.0)
+Imports:
+    raster (>= 3.4-5),
+    rgdal,
+    stats,
+    methods,
+    RColorBrewer,
+    graphics,
+    sp,
+    sf,
+    ggplot2,
+    rasterVis,
+    lattice
+Suggests:
+    testthat (>= 3.0.0)
+RoxygenNote: 7.3.1
+
